@@ -1,0 +1,73 @@
+#input-form {
+    margin-top: 11rem;
+    margin-left: 5rem;
+}
+
+.heading {
+    letter-spacing: 0.1rem;
+    font-weight: 170;
+    margin-left: 10rem;
+    font-size: 3rem;
+}
+
+.written {
+    margin-top: 11rem;
+    margin-left: -2rem;
+    
+}
+
+.overall {
+    margin-top: 1rem;
+    margin-left: 6.2rem;
+    font-weight: 200;
+}
+
+.lastLine {
+    margin-left: 6.5rem;
+    
+}
+
+.display {
+    min-height: 80.58vh;
+    margin-top: -2rem;
+}
+
+.log {
+    margin-left: -8rem;
+    margin-top: 6rem;
+}
+
+.logIn {
+    margin-top: -0.3rem;
+}
+
+.display2 {
+    min-height: 84.5vh;
+    margin-top: -2rem;
+}
+
+.log2 {
+    margin-left: 7rem;
+    margin-top: 13rem;
+}
+
+.display2 {
+    min-height: 80.58vh;
+    margin-top: -2rem;
+}
+
+/* .logout {
+    margin-left: 65rem;
+} */
+
+.welcome {
+    margin-left: -2rem;
+}
+
+.chat {
+    margin-left: 60rem;
+}
+
+.logout {
+    margin-left: 1rem;
+}

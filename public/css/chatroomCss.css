@@ -1,0 +1,66 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+
+.chat {
+    background-color: lightgray;
+    width: 80%;
+    height: 80%;
+    margin-left: 9.1rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.send {
+    margin-top: 2rem;
+    margin-left: 21.5rem;
+
+}
+
+#message {
+    width: 45rem;
+    margin-right: 1rem;
+}
+
+.message {
+    position: absolute;
+    height: auto;
+    width: auto;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.right {
+    margin-top: 0.5rem;
+    margin-left: 58rem;
+}
+
+.left {
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+}
+.message span {
+    padding: 0.5rem;
+}
+
+#sendMsg {
+    margin-top: 0.7rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    width: 5rem;
+}

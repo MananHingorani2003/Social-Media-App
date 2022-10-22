@@ -1,0 +1,101 @@
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.icons {
+    height: 100vh;
+    width: 20%;
+    background-color: whitesmoke;
+    border-right: 1px solid black;
+}
+
+.title h1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.all-icons {
+    margin: 2rem auto auto auto;
+}
+
+.all-icons i {
+    margin: 1rem 0rem 2rem -5.8rem;
+    font-size: 1.5rem;
+    color: black;
+    opacity: 0.65;
+    transition: 0.2s ease-in-out;
+}
+
+.all-icons i span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight: 100;
+}
+
+.logout button {
+    margin-left: 1.6rem;
+    width: 15rem;
+}
+
+.all-icons i:hover {
+    opacity: 1;
+}
+
+.profile {
+    height: 100vh;
+    width: 20%;
+    background-color: whitesmoke;
+    border-left: 1px solid black;
+
+}
+
+.posts {
+    height: 100vh;
+    width: 60%;
+    background-color: #fffafa;
+    overflow: scroll;
+
+}
+
+.texts h1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.texts h4,h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight: 100;
+    margin-left: 1rem;
+}
+
+.texts h5 {
+    margin-top: -0.6rem;
+}
+
+.ahah h5 {
+    margin-left: -0.05rem;
+}
+
+.lol h5 span{
+    margin-left: 0.5rem;
+}
+
+.deleteBtn {
+    margin-top: 1rem;
+    width: 44.4rem;
+}

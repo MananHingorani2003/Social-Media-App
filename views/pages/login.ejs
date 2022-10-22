@@ -1,0 +1,34 @@
+<% layout ('layouts/boilerplate') %> 
+
+      <div class="row container-fluid display2">
+        <div class="col-6 offset-3">
+            <form action="/login" method="POST" novalidate class="validated-form mt-5" id="input-form2">
+                <div class="mb-3">
+                    <label class="form-label" for="username">Username</label>
+                    <input class="form-control" type="text" id="username" name="username" required>
+                    <div class="valid-feedback">
+                        Looks Good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class = "form-label" for="password">Password</label>
+                    <input class = "form-control" type="password" id="password" name="password" required>
+                    <div class="valid-feedback">
+                        Looks Good!
+                    </div>
+                </div>
+                <div class="mb-3 offset-5">
+                    <button class="btn btn-success mt-3">Login</button>
+                </div>
+                
+
+            </form>
+            <form action="/">
+                <h4 class="log2"><span class="toDo">To go back click here: </span><button type="submit" class="btn btn-success logIn">Go Back</button></h4>
+
+            </form>
+            
+            
+        </div>
+    </div>
+

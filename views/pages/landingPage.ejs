@@ -1,0 +1,58 @@
+<% layout ('layouts/boilerplate') %> 
+
+      <div class="row container-fluid display">
+        <div class="col-6 written">
+            <h1 class="heading">Remember Writing?</h1>
+            <p class="overall">Are you sick of shared tweets and impersonal "shared" posts 
+                that are reminiscent of the late 90's email forwards? We beleive getting back to actually writing
+                is the key to enjoying the Internet again!
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                Lorem Ipsum is simply dummy text of the printing and typesetting <span class="lastLine">industry. Lorem Ipsum has been!</span>
+                
+            </p>
+        </div>
+        <div class="col-6">
+            <form action="/" method="POST" novalidate class="validated-form" id="input-form">
+                <div class="mb-3">
+                    <label class="form-label" for="username2">Username</label>
+                    <input class="form-control" type="text" id="username2" name="username2" required>
+                    <div class="valid-feedback">
+                        Looks Good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class = "form-label" for="mail">E-mail</label>
+                    <input class = "form-control" type="email" id="location" name="email" required>
+                    <div class="valid-feedback">
+                        Looks Good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class = "form-label" for="password2">Password</label>
+                    <input class = "form-control" type="password" id="password2" name="password2" required>
+                    <div class="valid-feedback">
+                        Looks Good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class = "form-label" for="name">Name</label>
+                    <input class = "form-control" type="text" id="name" name="name" required>
+                    <div class="valid-feedback">
+                        Looks Good!
+                    </div>
+                </div>
+                <div class="mb-3 offset-5">
+                    <button class="btn btn-success">Sign Up</button>
+                </div>
+                
+
+            </form>
+            <form action="/login">
+                <h4 class="log"><span class="toDo">To login click here: </span><button type="submit" class="btn btn-success logIn">LogIn</button></h4>
+
+            </form>
+            
+            
+        </div>
+    </div>
+
